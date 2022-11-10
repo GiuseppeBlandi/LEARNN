@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">Giuseppe Blandi</div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Hi, I'm<br>Giuseppe Blandi</h1>
+            <h3>Web programmer<br>based in Milan</h3>
+            <a class="hero-cta" href="#works">Discover my works</a>
+        </div>
+    </section>
+
+    <section class="works-menu">
+        <div class="container">
+            <ul>
+                <li><a class="button" href="#work1">The Beginning</a></li>
+                <li><a class="button" href="#work2">First steps with Javascript</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section  class="works">
+        <a class="anchors" id="works"></a>
+        <div class="container">
+
+            <div class="works-item">
+                <a class="anchors" id="work1"></a>
+                <div class="works-item-tags">Simple page \ HTML \ CSS</div>
+                <h2>The Beginning</h2>
+            
+
+            <div class="work-info">
+                <div class="work-info-label">About</div>
+                <div class="work-info-content">
+                    <p>This is the first web page that I designed and write entirely in HTML and CSS.
+                        I've done this after some day I entered in the world of web developer and
+                        since then I think I improved a bit :)
+                    </p>
+                </div>
+            </div>
+
+            <div class="images">
+                <img class="image-right" src="img/d079c075-49f2-4e6d-a89d-6ec00fc4b9d1.jpg" alt="">
+                <img class="image-left" src="img/1da36440-51f8-462b-a518-206e88fcf491.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="works-item">
+            <a class="anchors" id="work2"></a>
+            <div class="works-item-tags">Stupid quiz \ HTML-CSS \ Javascript</div>
+            <h2>First steps with Javascript</h2>
+        
+
+        <div class="work-info">
+            <div class="work-info-label">About</div>
+            <div class="work-info-content">
+                <p>This is my second web page and I've done this for a college homework.
+                    Here besides HTML(in particular flexbox) and CSS I used Javascript to made quiz work 
+                    and for the mechanism of the page.
+                </p>
+            </div>
+        </div>
+
+        <div class="images">
+            <img class="image-left" src="img/mhw2.1.PNG" alt="">
+            <img class="image-right" src="img/mhw2.3.PNG" alt="">
+        </div>
+
+        <section class="contacts">
+            <a class="anchors" id="contacts"></a>
+            <div class="container contacts-content">
+                <div class="contacts-about">
+                    <h2>About me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi, inventore iure a, laboriosam earum amet ratione voluptates numquam dolorum, sed ex tenetur quam praesentium. Amet odio praesentium minus repellat.</p>
+                </div>
+                <div class="contacts-form">
+                    <form name="contacts"  action=""> 
+                        <label class="input-label" for="">Full Name</label>
+                        <input class="input-field" type="text" placeholder="Name Surname" required>
+
+                        <label class="input-label" for="">E-mail</label>
+                        <input class="input-field" type="email" placeholder="example@email.com" required>
+
+                        <label class="input-label" for="">Subject</label>
+                        <input class="input-field" type="text" placeholder="example Subject" required>
+                        
+                        <label class="input-label" for="">Message <span>Optional (max 200)</span></label>
+                        <textarea class="input-textarea" placeholder="write here" maxlength="200"></textarea>
+
+                        <button class="button">Send</button>
+                </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="copyright">Giuseppe Blandi © 2022</div>
+            </div>
+        </footer>
+    </div>
+    </section>
+    <div class="back-to-top" >/\</div>
+    <script src="script.js"></script>
+</body>
+</html>
