@@ -98,19 +98,19 @@
                 <div class="contacts-form">
                     <form name="contacts" method="POST" data-netlify="true"> 
                         <label class="input-label" for="">Full Name</label>
-                        <input class="input-field" type="text" placeholder="Name Surname" required>
+                        <input name="full-name" class="input-field" type="text" placeholder="Name Surname" required>
 
                         <label class="input-label" for="">E-mail</label>
-                        <input class="input-field" type="email" placeholder="example@email.com" required>
+                        <input name="email" class="input-field" type="email" placeholder="example@email.com" required>
 
                         <label class="input-label" for="">Subject</label>
-                        <input class="input-field" type="text" placeholder="example Subject" required>
+                        <input name="subject" class="input-field" type="text" placeholder="example Subject" required>
                         
                         <label class="input-label" for="">Message <span>Optional (max 200)</span></label>
-                        <textarea class="input-textarea" placeholder="write here" maxlength="200"></textarea>
+                        <textarea name="textarea" class="input-textarea" placeholder="write here" maxlength="200"></textarea>
 
                         <button class="button">Send</button>
-                        <input type="hidden" name="contacts" value="contact">
+                        
                 </form>
                 </div>
             </div>
